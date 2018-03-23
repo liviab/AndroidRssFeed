@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notícias RSS</string>
+    <string name="rssTexto">Notícias CNN</string>
+    <string name="atualizar">Atualizar</string>
+</resources>

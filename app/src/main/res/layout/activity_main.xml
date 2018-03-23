@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufpe.cin.if1001.rss.MainActivity"
+    android:background="@android:color/black"
+    android:padding="16dp"
+    android:weightSum="2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+<!--
+        <TextView
+            android:id="@+id/conteudoRSS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/rssTexto"
+            android:textColor="@android:color/holo_orange_dark"/>
+-->
+        <ListView
+            android:id="@+id/lv_rss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/atualizarB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/atualizar" />
+
+</LinearLayout>
